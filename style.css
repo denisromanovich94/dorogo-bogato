@@ -1026,3 +1026,51 @@ p {
         scroll-behavior: smooth;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.nav-link.active {
+    color: var(--primary-gold);
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

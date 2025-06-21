@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги - Профессиональный Онтопсихолог</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="logo-text">ОП</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="about.html" class="nav-link">О нас</a></li>
+                <li><a href="education.html" class="nav-link">Образование</a></li>
+                <li><a href="experience.html" class="nav-link">Опыт</a></li>
+                <li><a href="approach.html" class="nav-link">Подход</a></li>
+                <li><a href="services.html" class="nav-link">Услуги</a></li>
+                <li><a href="ontopsychology.html" class="nav-link">Онтопсихология</a></li>
+                <li><a href="literature.html" class="nav-link">Литература</a></li>
+                <li><a href="contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Пакеты услуг</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Выберите программу, которая подходит именно вам</p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card fade-in-up">
+                        <div class="service-header">
+                            <h3>Базовый</h3>
+                            <div class="service-price">
+                                <span class="currency">$</span>
+                                <span class="amount">250</span>
+                            </div>
+                        </div>
+                        <div class="service-features">
+                            <ul>
+                                <li>1 индивидуальная консультация (90 минут)</li>
+                                <li>Первичная диагностика</li>
+                                <li>Персональные рекомендации</li>
+                                <li>Поддержка по email (7 дней)</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-service btn-full" onclick="selectService('basic')">Выбрать пакет</a>
+                    </div>
+
+                    <div class="service-card service-featured fade-in-up">
+                        <span class="service-badge">Популярный</span>
+                        <div class="service-header">
+                            <h3>Стандартный</h3>
+                            <div class="service-price">
+                                <span class="currency">$</span>
+                                <span class="amount">500</span>
+                            </div>
+                        </div>
+                        <div class="service-features">
+                            <ul>
+                                <li>3 индивидуальные консультации</li>
+                                <li>Углубленная диагностика</li>
+                                <li>Персональный план работы</li>
+                                <li>Домашние задания и техники</li>
+                                <li>Поддержка по email (30 дней)</li>
+                                <li>1 follow-up звонок</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-featured btn-full" onclick="selectService('standard')">Выбрать пакет</a>
+                    </div>
+
+                    <div class="service-card fade-in-up">
+                        <div class="service-header">
+                            <h3>Премиум</h3>
+                            <div class="service-price">
+                                <span class="currency">$</span>
+                                <span class="amount">1000</span>
+                            </div>
+                        </div>
+                        <div class="service-features">
+                            <ul>
+                                <li>6 индивидуальных консультаций</li>
+                                <li>Комплексная диагностика</li>
+                                <li>Персональная программа трансформации</li>
+                                <li>Еженедельные домашние задания</li>
+                                <li>Безлимитная поддержка (90 дней)</li>
+                                <li>3 follow-up звонка</li>
+                                <li>Дополнительные материалы</li>
+                                <li>Гарантия результата</li>
+                            </ul>
+                        </div>
+                        <a href="#contact" class="btn btn-service btn-full" onclick="selectService('premium')">Выбрать пакет</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <h2 class="section-title">Почему выбирают мои услуги</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-subtitle">Преимущества индивидуального подхода</p>
+                </div>
+                <div class="about-text fade-in-up">
+                    <p>Мои услуги разработаны для тех, кто ищет глубокие и устойчивые изменения в своей жизни. Основанные на принципах онтопсихологии, они помогают клиентам не только решать текущие проблемы, но и раскрывать свой истинный потенциал для достижения долгосрочных целей.</p>
+                    <p>Каждый пакет услуг — это тщательно продуманная программа, адаптированная под ваши уникальные потребности. От первичной диагностики в "Базовом" пакете до комплексной трансформации в "Премиум", я обеспечиваю поддержку на каждом этапе вашего пути.</p>
+                    <p>Мои клиенты ценят персонализированный подход, который сочетает глубинный анализ, практические техники и постоянную поддержку. Независимо от выбранного пакета, вы получите инструменты для самостоятельного управления своей жизнью и достижения гармонии.</p>
+                    <p>Выбирая мои услуги, вы инвестируете в своё будущее. Позвольте мне помочь вам сделать первый шаг к жизни, полной смысла и удовлетворения.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>[email protected]</p>
+                    <p>+7 (495) 123-45-67</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <p>Индивидуальные консультации</p>
+                    <p>Групповая терапия</p>
+                    <p>Семейное консультирование</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Информация</h4>
+                    <p>Лицензия № 123456</p>
+                    <p>Член ассоциации онтопсихологов</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Профессиональный Онтопсихолог. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
